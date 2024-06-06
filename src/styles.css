@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2b2b2b; /* Darker background */
+    color: #f4f4f9; /* Light text color */
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #3b3b3b; /* Darker container background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+h1, h2 {
+    text-align: center;
+    color: #f4f4f9; /* Light heading color */
+    margin-bottom: 20px;
+}
+.ratio, .estimate {
+    flex: 1 1 30%;
+    background-color: #4b4b4b; /* Darker ratio/estimate background */
+    padding: 10px;
+    border: 1px solid #666; /* Darker border */
+    border-radius: 4px;
+    text-align: center;
+    color: #f4f4f9; /* Light text color */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+.ratio:hover, .estimate:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+.ratio span, .estimate span {
+    display: block;
+    font-weight: bold;
+    color: #f4f4f9; /* Light span color */
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #aaa;
+}
+.chart-container {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    margin: 20px 0;
+}

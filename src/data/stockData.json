@@ -1,0 +1,24 @@
+{
+    "keyRatios": {
+      "marketCap": "2.41T",
+      "sharesOutstanding": "16.53B",
+      "peRatio": "30.44",
+      "psRatio": "7.53",
+      "pbRatio": "33.77",
+      "pegRatio": "2.62",
+      "currentRatio": "1.07",
+      "debtToEquityRatio": "1.95",
+      "eps": "5.61"
+    },
+    "analystEstimates": {
+      "BofA": "Buy",
+      "Citibank": "Neutral",
+      "GoldmanSachs": "Buy",
+      "MorganStanley": "Overweight",
+      "JPMorgan": "Neutral",
+      "Moelis": "Buy",
+      "Lazard": "Buy",
+      "Evercore": "Outperform"
+    }
+  }
+  

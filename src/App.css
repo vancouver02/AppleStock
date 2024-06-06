@@ -1,38 +1,144 @@
-.App {
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #121212;
+  color: #fff;
+}
+
+.container {
   text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header, footer {
+  background: #1f1f1f;
+  padding: 10px 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header h1 {
+  margin: 0;
+  font-size: 2em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.signin-icon {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.stock-summary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.current-price, .price-change, .closing-info, .after-hours {
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.current-price {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.price-change {
+  font-size: 1.2em;
+}
+
+.positive-change {
+  color: #4caf50;
+}
+
+.negative-change {
+  color: #f44336;
+}
+
+.closing-info, .after-hours {
+  font-size: 0.9em;
+  color: #bbb;
+}
+
+.after-hours {
+  display: flex;
+  align-items: center;
+}
+
+.after-hours-price, .after-hours-change, .after-hours-time {
+  margin-left: 5px;
+}
+
+.section {
+  background: #1f1f1f;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chart-container {
+  width: 100%;
+  height: 400px;
+}
+
+.stock-info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.table-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.table th, .table td {
+  padding: 12px 15px;
+  text-align: left;
+  color: #fff;
+}
+
+.table th {
+  background-color: #2b2b2b;
+}
+
+.table td {
+  background-color: #1f1f1f;
+  border-bottom: 1px solid #3c3c3c;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.table th, .table td {
+  width: 50%;
 }
