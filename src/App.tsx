@@ -53,6 +53,15 @@ const App: React.FC = () => {
     <div className="container">
       <header>
         <h1>Apple Inc. (AAPL) Stock Analysis</h1>
+        <div className="stock-info-header">
+          <span>Technology</span>
+          <span>•</span>
+          <span>Consumer Electronics</span>
+          <span>•</span>
+          <span>USA</span>
+          <span>•</span>
+          <span>NASD</span>
+        </div>
         <div className="signin-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -220,6 +229,15 @@ const App: React.FC = () => {
         <StockInfo data={financialData} />
       </div>
       <footer>
+        <div className="stock-info-header">
+          <span>Technology</span>
+          <span>•</span>
+          <span>Consumer Electronics</span>
+          <span>•</span>
+          <span>USA</span>
+          <span>•</span>
+          <span>NASD</span>
+        </div>
         <p>&copy; 2024 Stock Analysis</p>
       </footer>
     </div>

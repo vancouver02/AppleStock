@@ -86,6 +86,19 @@ footer p {
   margin-left: 5px;
 }
 
+.stock-info-header, .stock-info-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 1.1em;
+  color: #81d4fa;
+}
+
+.stock-info-header span, .stock-info-footer span {
+  margin: 0 5px;
+}
+
 .section {
   background: #1f1f1f;
   border-radius: 10px;
