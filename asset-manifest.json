@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AppleStock/static/css/main.05aaa817.css",
+    "main.js": "/AppleStock/static/js/main.fed6e1c7.js",
+    "index.html": "/AppleStock/index.html",
+    "main.05aaa817.css.map": "/AppleStock/static/css/main.05aaa817.css.map",
+    "main.fed6e1c7.js.map": "/AppleStock/static/js/main.fed6e1c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05aaa817.css",
+    "static/js/main.fed6e1c7.js"
+  ]
+}
