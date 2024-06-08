@@ -1,12 +1,10 @@
-// types.ts
-
 export interface CandlestickData {
   x: Date;
   o: number;
   h: number;
   l: number;
   c: number;
-  v?: number; // Adding volume as an optional property
+  v?: number; 
 }
 
 export interface FinancialData {
